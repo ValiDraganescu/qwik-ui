@@ -4,18 +4,20 @@
   background-color: $primaryColor;
   color: $buttonTextColor;
   padding: 0.5rem;
+  margin: 0.2rem;
   border: none;
   border-radius: 0.2rem;
   font-weight: bold;
   background-position: center;
   transition: background 0.8s;
+  width: fit-content;
 
   // add material design ripple effect on click
   &:hover {
     background: $primaryColor radial-gradient(circle, transparent 1%, $primaryColor 1%) center/15000%;
   }
     &:active {
-        background-color: $primaryColor;
+        background-color: $primaryColorRipple;
         background-size: 100%;
         transition: background 0s;
     }
