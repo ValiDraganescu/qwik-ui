@@ -1,0 +1,8 @@
+@import "../global";
+
+.card {
+  background-color: $cardBackgroundColor;
+  display: flex;
+  visibility: visible;
+  padding: 1rem;
+}
